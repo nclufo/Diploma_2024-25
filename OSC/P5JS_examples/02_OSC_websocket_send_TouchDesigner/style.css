@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(160, 160, 160);
+  font-family: monospace;
+  color: white;
+  font-size: 16px;
+}
+canvas {
+  display: block;
+}
+
+/* Styles the whole slider */
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #ffffff;
+  outline-style: solid;
+  outline-color: #000000;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04aa6d;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04aa6d;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 4px;
+  border: 1px solid #0000ff;
+  color: #000000;
+  height: 30px;
+  padding-left: 10px;
+  font-family: monospace;
+  font-size: 16px;
+}
+p {
+  width: 40%;
+  line-height: 2em;
+  overflow: auto;
+}
