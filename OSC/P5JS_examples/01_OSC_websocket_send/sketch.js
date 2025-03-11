@@ -26,7 +26,7 @@ function setup() {
 function draw() {
   background(r, g, b);
   fill(0);
-  text('S', 10, 10);
+  text('test', 10, 10);
 }
 
 
